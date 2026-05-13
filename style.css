@@ -5,6 +5,7 @@
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.689), rgba(0, 0, 0, 0.5)), url("images/map.png");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -43,6 +44,7 @@ body, html {
     margin-right: 10ch;
     height: 120ch;
     border-radius: 50px;
+    position: relative;
 }
 
 .search-box {
@@ -60,11 +62,16 @@ body, html {
 }
 
 .search-box-text {
+    position: relative;
     width: auto;
-    height: 2px;
+    height: 3ch;
     font-size: 20ch;
-    background-color: black;
-    font-size: 2ch;
+    font-size: 5ch;
+    z-index: 2;
+    margin-top: -3ch;
+    margin-left: 13ch;
+    margin-right: 10ch;
+     align-items: center;
 }
 
 /* Map Styling */
