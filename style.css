@@ -1,14 +1,48 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.689), rgba(0, 0, 0, 0.5)), url("images/map.png");
+    background-size: cover;
+}
+
+header {
+    margin: 20;
+    padding: 20;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15ch;
+}
+
+.title-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8ch;
+}
+
+header, .title-text {
+    color: white;
+    text-shadow: 10px 5px 15px #000000;
+}
+
+.topbar {
+    background-image: linear-gradient(rgba(0, 162, 255, 0.689), rgba(0, 162, 255, 0.689));
+    height: 20ch;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
 }
 
 body, html {
     height: 100%;
     width: 100%;
-    overflow: hidden; /* Prevents scrollbars on the main page */
+}
+
+.search-main-page {
+    background-image: linear-gradient(rgba(0, 162, 255, 0.689), rgba(0, 162, 255, 0.689));
+    margin-top: 20ch;
+    margin-left: 10ch;
+    margin-right: 10ch;
+    height: 120ch;
+    border-radius: 50px;
 }
 
 /* Map Styling */
