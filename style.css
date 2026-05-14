@@ -81,12 +81,13 @@ body, html {
     background-color: beige;
  }
 
-/* Page Selection */
+/* Page 2 - Selection */
 
 .background-box {
     margin-top: 5ch;
     margin-left: 5ch;
     margin-right: 5ch;
+    margin-bottom: 10ch;
     height: auto;
     border-radius: 50px;
     background-color: rgba(0, 115, 255, 0.655);
@@ -116,6 +117,29 @@ body, html {
     background-color: beige;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 6ch;
+}
+
+/* Page 3 - Options */
+.checkboxing {
+    height: 4ch;
+    width: 4ch;
+}
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3ch;
+    width: auto;
+    margin-top: 1ch;
+    margin-left: 10ch;
+    margin-right: 10ch;
+    border-radius: 50px;
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8ch;
+    font-weight: bold;
 }
 
 /* Map Styling */
