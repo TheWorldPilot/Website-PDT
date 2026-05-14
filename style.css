@@ -71,7 +71,51 @@ body, html {
     margin-top: -3ch;
     margin-left: 13ch;
     margin-right: 10ch;
-     align-items: center;
+    align-items: center;
+}
+
+ .img-bounding-box {
+    height: 30ch;
+    width: 30ch;
+    border-radius: 30px;
+    background-color: beige;
+ }
+
+/* Page Selection */
+
+.background-box {
+    margin-top: 5ch;
+    margin-left: 5ch;
+    margin-right: 5ch;
+    height: auto;
+    border-radius: 50px;
+    background-color: rgba(0, 115, 255, 0.655);
+}
+
+.text1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 8ch;
+    color: white;
+}
+
+.text2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6ch;
+    color: white;
+}
+
+.selection-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5ch;
+    height: 3ch;
+    width: 7ch;
+    border-radius: 50px;
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6ch;
 }
 
 /* Map Styling */
